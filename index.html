@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexCodev - Soluciones Digitales Innovadoras</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="navbar">
+        <div class="container-lg">
+            <a class="navbar-brand fw-bold" href="#home">
+                <img src="assets/images/logo.jpg" alt="NexCodev Logo" class="logo-img" height="50">
+                NexCodev
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Equipo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Reseñas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container-lg h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-6 order-lg-1 order-2">
+                    <h1 class="hero-title mb-4">Transformando Ideas en Soluciones Digitales</h1>
+                    <p class="hero-subtitle mb-4">En NexCodev, creamos experiencias digitales innovadoras que impulsan el crecimiento de tu negocio.</p>
+                    <div class="d-flex gap-3 flex-wrap">
+                        <a href="#portfolio" class="btn btn-primary btn-lg">Ver Nuestro Trabajo</a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg">Contactanos</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-2 order-1 text-center mb-4 mb-lg-0">
+                    <img src="assets/images/computadora.png" alt="NexCodev" class="img-fluid hero-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 about-section">
+        <div class="container-lg">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="assets/images/about-image.png" alt="Sobre Nosotros" class="img-fluid rounded-4 shadow-lg">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="section-title mb-4">Sobre Nosotros</h2>
+                    <p class="section-text mb-3">En NexCodev, somos un equipo de profesionales apasionados por la tecnología y el diseño digital. Nos especializamos en crear soluciones web innovadoras que transforman la presencia online de nuestros clientes.</p>
+                    <p class="section-text mb-3">Con años de experiencia en el mercado, hemos trabajado con empresas de diferentes tamaños, desde startups hasta empresas establecidas, entregando siempre resultados excepcionales.</p>
+                    <p class="section-text mb-4">Nuestro compromiso es proporcionar servicios de calidad superior, manteniendo una comunicación clara y transparente con nuestros clientes en cada paso del proceso.</p>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <div class="feature-card">
+                                <i class="fas fa-rocket text-primary"></i>
+                                <h5>Innovación</h5>
+                                <p>Utilizamos las últimas tecnologías</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="feature-card">
+                                <i class="fas fa-handshake text-primary"></i>
+                                <h5>Confianza</h5>
+                                <p>Relaciones sólidas con clientes</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="feature-card">
+                                <i class="fas fa-star text-primary"></i>
+                                <h5>Calidad</h5>
+                                <p>Excelencia en cada proyecto</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="feature-card">
+                                <i class="fas fa-users text-primary"></i>
+                                <h5>Equipo</h5>
+                                <p>Talento y experiencia unidos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 services-section">
+        <div class="container-lg">
+            <h2 class="section-title text-center mb-5">Nuestros Servicios</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h4>Diseño Web</h4>
+                        <p>Creamos sitios web modernos y responsivos que cautivan a tus visitantes y generan conversiones.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4>Desarrollo Web</h4>
+                        <p>Desarrollo de aplicaciones web robustas con tecnologías modernas y escalables.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h4>Aplicaciones Móviles</h4>
+                        <p>Apps nativas y multiplataforma que conectan con tu audiencia en cualquier dispositivo.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h4>UI/UX Design</h4>
+                        <p>Diseño enfocado en la experiencia del usuario para interfaces intuitivas y atractivas.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h4>Ecommerce</h4>
+                        <p>Soluciones completas de tiendas online con integración de pagos y gestión de inventario.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card h-100">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>SEO & Marketing</h4>
+                        <p>Estrategias de posicionamiento digital para aumentar tu visibilidad en línea.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section with Slider -->
+    <section id="portfolio" class="py-5 portfolio-section">
+        <div class="container-lg">
+            <h2 class="section-title text-center mb-5">Nuestro Portfolio</h2>
+            
+            <!-- Portfolio Slider -->
+            <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="3"></button>
+                </div>
+                
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <img src="assets/images/project-1.jpg" alt="Proyecto 1" class="img-fluid rounded-4 shadow-lg portfolio-image">
+                            </div>
+                            <div class="col-lg-6 mt-4 mt-lg-0">
+                                <span class="badge bg-primary mb-2">Proyecto Destacado</span>
+                                <h3 class="mb-3">Página Web</h3>
+                                <p class="mb-3">Página web completa con integración de pagos, carrito de compras y panel administrativo.</p>
+                                <div class="mb-3">
+                                    <span class="badge bg-light text-dark me-2">React</span>
+                                    <span class="badge bg-light text-dark me-2">Node.js</span>
+                                    <span class="badge bg-light text-dark">MongoDB</span>
+                                </div>
+                                <a href="#" class="btn btn-primary">Ver Proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <img src="assets/images/project-2.jpg" alt="Proyecto 2" class="img-fluid rounded-4 shadow-lg portfolio-image">
+                            </div>
+                            <div class="col-lg-6 mt-4 mt-lg-0">
+                                <span class="badge bg-primary mb-2">Proyecto Destacado</span>
+                                <h3 class="mb-3">CMS Empresarial</h3>
+                                <p class="mb-3">Sistema de gestión de contenidos personalizado para empresa de medios con múltiples usuarios y roles.</p>
+                                <div class="mb-3">
+                                    <span class="badge bg-light text-dark me-2">Vue.js</span>
+                                    <span class="badge bg-light text-dark me-2">Laravel</span>
+                                    <span class="badge bg-light text-dark">PostgreSQL</span>
+                                </div>
+                                <a href="#" class="btn btn-primary">Ver Proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 3 -->
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <img src="assets/images/project-3.png" alt="Proyecto 3" class="img-fluid rounded-4 shadow-lg portfolio-image">
+                            </div>
+                            <div class="col-lg-6 mt-4 mt-lg-0">
+                                <span class="badge bg-primary mb-2">Proyecto Destacado</span>
+                                <h3 class="mb-3">App Móvil SaaS</h3>
+                                <p class="mb-3">Aplicación móvil multiplataforma para gestión de proyectos con sincronización en tiempo real.</p>
+                                <div class="mb-3">
+                                    <span class="badge bg-light text-dark me-2">React Native</span>
+                                    <span class="badge bg-light text-dark me-2">Firebase</span>
+                                    <span class="badge bg-light text-dark">Redux</span>
+                                </div>
+                                <a href="#" class="btn btn-primary">Ver Proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Slide 4 -->
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <img src="assets/images/project-4.png" alt="Proyecto 4" class="img-fluid rounded-4 shadow-lg portfolio-image">
+                            </div>
+                            <div class="col-lg-6 mt-4 mt-lg-0">
+                                <span class="badge bg-primary mb-2">Proyecto Destacado</span>
+                                <h3 class="mb-3">Portal Educativo</h3>
+                                <p class="mb-3">Plataforma de educación online con cursos, ejercicios, calificaciones y seguimiento de estudiantes.</p>
+                                <div class="mb-3">
+                                    <span class="badge bg-light text-dark me-2">Next.js</span>
+                                    <span class="badge bg-light text-dark me-2">GraphQL</span>
+                                    <span class="badge bg-light text-dark">AWS</span>
+                                </div>
+                                <a href="#" class="btn btn-primary">Ver Proyecto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-5 team-section">
+        <div class="container-lg">
+            <h2 class="section-title text-center mb-5">Nuestro Equipo</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-card">
+                        <div class="team-image-wrapper">
+                            <img src="assets/images/team-member-1.png" alt="Miembro del Equipo" class="img-fluid team-image">
+                        </div>
+                        <h4 class="mt-4 mb-1">Jherson Villa Arcibia</h4>
+                        <p class="text-muted mb-3">Desarrollador Full Stack</p>
+                        <p class="small mb-3">Especialista en tecnologías web modernas con 8 años de experiencia en desarrollo. Apacionado por la tecnología</p>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/jhersonvillaarcibia/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <!--<a href="#" class="social-link"><i class="fab fa-twitter"></i></a>-->
+                            <a href="https://github.com/Jhersonva" class="social-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-card">
+                        <div class="team-image-wrapper">
+                            <img src="assets/images/team-member-2.jpg" alt="Miembro del Equipo" class="img-fluid team-image">
+                        </div>
+                        <h4 class="mt-4 mb-1">María García</h4>
+                        <p class="text-muted mb-3">Diseñadora UX/UI</p>
+                        <p class="small mb-3">Creadora de interfaces intuitivas y experiencias de usuario excepcionales con 3 años de trayectoria.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                
+                            <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="team-card">
+                        <div class="team-image-wrapper">
+                            <img src="assets/images/team-member-3.jpg" alt="Miembro del Equipo" class="img-fluid team-image">
+                        </div>
+                        <h4 class="mt-4 mb-1">Gerald Alexander Delgado</h4>
+                        <p class="text-muted mb-3">Gerente de Proyectos</p>
+                        <p class="small mb-3">Coordinador experto en entrega exitosa de proyectos complejos con satisfacción del cliente.</p>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/gerald-alexander-delgado-sab%C3%A1-bb98b4229" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/GeralDevCode" class="social-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5 testimonials-section">
+        <div class="container-lg">
+            <h2 class="section-title text-center mb-5">Lo Que Dicen Nuestros Clientes</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text mb-4">"NexCodev transformó completamente mi presencia online. El equipo fue profesional, dedicado y entregó resultados excepcionales en tiempo."</p>
+                        <div class="client-info">
+                            <img src="assets/images/client-1.png" alt="Cliente" class="client-avatar">
+                            <div>
+                                <h6 class="mb-0">Roberto López</h6>
+                                <small class="text-muted">CEO, EmpresaTech</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text mb-4">"La calidad del trabajo es excepcional. Superaron mis expectativas en diseño y funcionalidad. Definitivamente los contrataría nuevamente."</p>
+                        <div class="client-info">
+                            <img src="assets/images/client-2.png" alt="Cliente" class="client-avatar">
+                            <div>
+                                <h6 class="mb-0">Sofía Martínez</h6>
+                                <small class="text-muted">Emprendedora, BeautyPro</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-card">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text mb-4">"Equipo altamente profesional. La comunicación fue clara y transparente durante todo el proyecto. Muy satisfecho con los resultados."</p>
+                        <div class="client-info">
+                            <img src="assets/images/client-3.png" alt="Cliente" class="client-avatar">
+                            <div>
+                                <h6 class="mb-0">Miguel Ángel Silva</h6>
+                                <small class="text-muted">Gerente, Innovatech Solutions</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 contact-section">
+        <div class="container-lg">
+            <h2 class="section-title text-center mb-5">Ponte en Contacto</h2>
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <div class="contact-item mb-4">
+                            <!--
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            
+                            <div>
+                                <h5>Ubicación</h5>
+                                <p>Tu Ciudad, País</p>
+                            </div>-->
+                        </div>
+                        <div class="contact-item mb-4">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h5>Teléfono</h5>
+                                <p><a href="tel:+935606673">+51 935606673</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item mb-4">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h5>Email</h5>
+                                <p><a href="mailto:info@nexcodev.com">nexcode1617@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="social-links-footer mt-4">
+                            <a href="https://www.facebook.com/nexcodev/" class="social-link-footer"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link-footer"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link-footer"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-link-footer"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--
+                <div class="col-lg-8">
+                    <form id="contactForm" class="contact-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="name" placeholder="Tu Nombre" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" id="email" placeholder="Tu Email" required>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control" id="subject" placeholder="Asunto" required>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" id="message" rows="5" placeholder="Tu Mensaje" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary btn-lg w-100">Enviar Mensaje</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container-lg">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0">&copy; 2025 NexCodev. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="footer-link me-3">Política de Privacidad</a>
+                    <a href="#" class="footer-link me-3">Términos de Servicio</a>
+                    <a href="#" class="footer-link">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
